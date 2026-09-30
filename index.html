@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nisha | CSE Student</title>
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, sans-serif;
+    }
+
+    body {
+      min-height: 100vh;
+      background: #0b0b0f;
+      color: #f5f5f5;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 30px;
+    }
+
+    .profile {
+      width: 100%;
+      max-width: 850px;
+      background: #15151c;
+      border: 1px solid #292936;
+      border-radius: 24px;
+      padding: 45px;
+      text-align: center;
+      box-shadow: 0 20px 60px rgba(0, 0, 0, 0.5);
+    }
+
+    .avatar {
+      width: 120px;
+      height: 120px;
+      margin: 0 auto 20px;
+      border-radius: 50%;
+      background: linear-gradient(135deg, #8b5cf6, #ec4899);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 42px;
+      font-weight: bold;
+      color: white;
+      box-shadow: 0 0 30px rgba(139, 92, 246, 0.35);
+    }
+
+    h1 {
+      font-size: 42px;
+      margin-bottom: 10px;
+    }
+
+    .role {
+      color: #a78bfa;
+      font-size: 19px;
+      margin-bottom: 25px;
+    }
+
+    .bio {
+      max-width: 600px;
+      margin: auto;
+      color: #b8b8c5;
+      line-height: 1.7;
+      font-size: 16px;
+    }
+
+    .cards {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 15px;
+      margin-top: 35px;
+    }
+
+    .card {
+      background: #1d1d26;
+      border: 1px solid #2c2c38;
+      border-radius: 16px;
+      padding: 22px 15px;
+      transition: 0.3s;
+    }
+
+    .card:hover {
+      transform: translateY(-5px);
+      border-color: #8b5cf6;
+      box-shadow: 0 10px 25px rgba(139, 92, 246, 0.15);
+    }
+
+    .icon {
+      font-size: 30px;
+      margin-bottom: 10px;
+    }
+
+    .card h3 {
+      font-size: 16px;
+      margin-bottom: 6px;
+    }
+
+    .card p {
+      color: #9999a8;
+      font-size: 14px;
+    }
+
+    .skills {
+      margin-top: 35px;
+    }
+
+    .skills h2 {
+      margin-bottom: 15px;
+      font-size: 22px;
+    }
+
+    .tags {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 10px;
+    }
+
+    .tag {
+      padding: 9px 16px;
+      border-radius: 30px;
+      background: #22222d;
+      color: #c4b5fd;
+      border: 1px solid #373744;
+      font-size: 14px;
+    }
+
+    .favorite {
+      margin-top: 30px;
+      padding: 20px;
+      background: linear-gradient(
+        135deg,
+        rgba(236, 72, 153, 0.12),
+        rgba(139, 92, 246, 0.12)
+      );
+      border: 1px solid #34303f;
+      border-radius: 16px;
+    }
+
+    .favorite span {
+      font-size: 30px;
+    }
+
+    .favorite p {
+      margin-top: 8px;
+      color: #c8c8d2;
+    }
+
+    footer {
+      margin-top: 30px;
+      color: #777785;
+      font-size: 13px;
+    }
+
+    @media (max-width: 650px) {
+      .profile {
+        padding: 30px 20px;
+      }
+
+      h1 {
+        font-size: 34px;
+      }
+
+      .cards {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <main class="profile">
+
+    <div class="avatar">N</div>
+
+    <h1>Hi, I'm Nisha 👋</h1>
+
+    <div class="role">
+      CSE Student 💻 | Future Developer 🚀
+    </div>
+
+    <p class="bio">
+      I'm Nisha, a Computer Science and Engineering student.
+      I enjoy learning technology, building creative projects,
+      and exploring the world of coding.
+    </p>
+
+    <section class="cards">
+      <div class="card">
+        <div class="icon">💻</div>
+        <h3>Education</h3>
+        <p>CSE Student at JIT</p>
+      </div>
+
+      <div class="card">
+        <div class="icon">🚀</div>
+        <h3>Interest</h3>
+        <p>Coding & Technology</p>
+      </div>
+
+      <div class="card">
+        <div class="icon">🌟</div>
+        <h3>Goal</h3>
+        <p>Become a Great Developer</p>
+      </div>
+    </section>
+
+    <section class="skills">
+      <h2>My Interests</h2>
+
+      <div class="tags">
+        <span class="tag">Programming</span>
+        <span class="tag">Web Development</span>
+        <span class="tag">CSE</span>
+        <span class="tag">Technology</span>
+        <span class="tag">Learning</span>
+      </div>
+    </section>
+
+    <div class="favorite">
+      <span>😋 🥣</span>
+      <p>
+        <strong>Favorite Food:</strong> Pani Puri ❤️
+      </p>
+    </div>
+
+    <footer>
+      © 2026 Nisha • CSE Student
+    </footer>
+
+  </main>
+
+</body>
+</html>
